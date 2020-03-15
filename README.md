@@ -1,5 +1,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1c2M7iayzqh6lzHJCihUrTR78AF0jVOsb)
 
+# SSD (Single Shot MultiBox Detector) - Tensorflow 2.0
+
 ## TF 2.1과 jupyter notebook에서 아래의 모델을 사용할 수 있습니다.
 - VGG16
 - MobilenetV1
@@ -46,10 +48,6 @@
 
 - evaluate:
   - SSD_evaluate(mAP).ipynb
-
-# SSD (Single Shot MultiBox Detector) - Tensorflow 2.0
-
-```
 
 ## Reference
 - Single Shot Multibox Detector paper: [paper](https://arxiv.org/abs/1512.02325)
