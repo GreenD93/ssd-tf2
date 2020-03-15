@@ -8,6 +8,19 @@
 - MobilenetV1-lite
 - MobilenetV2-lite
 
+### Code 
+- `train`:
+  - SSD_train.ipynb
+
+- `inference`:
+  - SSD_inference.ipynb
+
+- `test`:
+  - SSD_test.ipynb
+
+- `evaluate`:
+  - SSD_evaluate(mAP).ipynb
+  
 ### Data 준비
 
 1. VOC2012 dataset을 다운로드합니다.
@@ -37,17 +50,6 @@
 -  `ARCH` SSD network 아키텍쳐 (ssd300 or ssd512)
 -  `PRETRAINED_TYPE` (`base` : 기본 vgg16 model feature extractor, `specified` : 학습된 모델 weights)
 
-- train:
-  - SSD_train.ipynb
-
-- inference:
-  - SSD_inference.ipynb
-
-- test:
-  - SSD_test.ipynb
-
-- evaluate:
-  - SSD_evaluate(mAP).ipynb
 
 ## Reference
 - Single Shot Multibox Detector paper: [paper](https://arxiv.org/abs/1512.02325)
